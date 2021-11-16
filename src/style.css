@@ -55,12 +55,13 @@ main {
 }
 
 .table .scores {
+  list-style: none;
   display: flex;
   flex-direction: column;
   border: 5px solid black;
 }
 
-.table .scores p {
+.table .scores li {
   display: flex;
   font-size: 24px;
   text-align: center;
