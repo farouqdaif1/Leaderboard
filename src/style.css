@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  font-size: 32px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+}
+.table .recent-scores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.table .recent-scores h3 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.table .recent-scores #refresh {
+  font-size: 16px;
+  text-align: center;
+}
+.table .scores {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+}
+.table .scores p {
+  display: flex;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 2px solid grey;
+}
+
+.add-your-score {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+.add-your-score form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.add-your-score form h3 {
+  font-size: 32px;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+.add-your-score form .your-name {
+  font-size: 18px;
+  padding: 1%;
+  margin-bottom: 3%;
+}
+.add-your-score form .your-score {
+  font-size: 18px;
+  padding: 1%;
+  margin-bottom: 3%;
+}
+.add-your-score form .your-submit {
+  display: flex;
+  font-size: 18px;
+  align-self: flex-end;
+}
