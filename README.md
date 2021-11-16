@@ -13,6 +13,7 @@ A JavaScript project for the Leaderboard list app, using webpack and ES6 feature
 - CSS
 - JS
 - WEBPACK
+- API service
 
 ## Getting Started
 
