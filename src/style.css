@@ -5,6 +5,7 @@
 }
 
 body {
+  background-image: url("./xx.jpg");
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -13,8 +14,10 @@ body {
 
 header {
   font-size: 32px;
+  font-weight: 900;
   width: 100%;
   margin-bottom: 50px;
+  color: rgb(244 247 158);
 }
 
 main {
@@ -29,6 +32,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   width: 40%;
+  background-color: rgb(52 19 4 / 70%);
 }
 
 .table .recent-scores {
@@ -41,31 +45,44 @@ main {
   font-size: 32px;
   padding: 5%;
   margin-bottom: 3%;
+  color: rgb(255, 145, 2);
 }
-
+.table .recent-scores {
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  text-align: center;
+}
 .table .recent-scores h3 {
   font-size: 30px;
   margin-bottom: 1rem;
   text-align: center;
+  color: rgb(255, 145, 2);
 }
 
 .table .recent-scores #refresh {
   font-size: 16px;
   text-align: center;
+  padding: 1%;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 145, 2);
 }
 
 .table .scores {
   list-style: none;
   display: flex;
   flex-direction: column;
-  border: 5px solid black;
+  color: white;
+  border: 5px solid rgb(255, 145, 2);
 }
 
 .table .scores li {
   display: flex;
   font-size: 24px;
   text-align: center;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid rgb(255, 145, 2);
+  padding: 1%;
 }
 
 .add-your-score {
@@ -98,4 +115,8 @@ main {
   display: flex;
   font-size: 18px;
   align-self: flex-end;
+  padding: 1%;
+  border: none;
+  color: white;
+  background-color: rgb(255, 145, 2);
 }
